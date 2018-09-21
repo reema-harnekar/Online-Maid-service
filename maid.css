@@ -38,3 +38,10 @@ nav ul li a:hover{
 	opacity: 0.7;
 }
 
+footer p{
+	position: relative;
+	bottom: 0px;
+	text-align: center;
+	background-color: rgb(44, 58, 71);
+	height: 20px;
+}
