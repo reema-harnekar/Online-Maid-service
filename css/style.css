@@ -1,12 +1,18 @@
+body {
+	font-family: 'work sans', sans-serif;
+	font-weight: 300;
+	margin: 0;
+}
+
 header{
-	background-color: rgb(44, 58, 71);
+	background-color: black;
 	overflow: auto;
 }
 
 .container1{
-	width: 1350px;
+	width: 100%;
 	margin: 0 auto;
-	height: 70px;
+	height: auto;
 }
 
 nav ul{
@@ -19,17 +25,22 @@ nav ul{
 .logo {
 	padding: 10px;
 	float: left;
-	width: 200px;
-	height: 50px;
+	width: 100px;
+	height: auto;
+	margin-left: 10px; 
+	margin-bottom: 10px;
 }
 
 nav ul li{
 	float: right;
+	display: inline-block;
+	margin-left: 10px;
+	padding-top: 5px;
 }
 nav ul li a{
 	color: rgb(90, 181, 81);
 	text-decoration: none;
-	padding: 20px;
+	padding: 10px;
 	display: block; 
 }
 
@@ -42,6 +53,7 @@ footer p{
 	position: relative;
 	bottom: 0px;
 	text-align: center;
-	background-color: rgb(44, 58, 71);
+	background-color: black;
+	color: white;
 	height: 20px;
 }
