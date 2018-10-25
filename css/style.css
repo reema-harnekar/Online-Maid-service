@@ -15,8 +15,52 @@
 .modal-body{
 	text-align: center;
 	padding:40px 50px;
+}
+body {
+	font-family: 'work sans', sans-serif;
+	font-weight: 300;
+	margin: 0;
+}
 
+header{
+	background-color: black;
+	overflow: auto;
+}
 
+.container1{
+	width: 100%; 
+	margin: 0 auto;
+	height: auto;
+}
+
+nav ul{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.logo {
+	padding: 10px;
+	float: left;
+	width: 100px;
+	height: auto;
+	margin-left: 10px; 
+	margin-bottom: 10px;
+}
+
+nav ul li{
+	float: right;
+	display: inline-block;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+nav ul li a{
+	color: rgb(90, 181, 81);
+	text-decoration: none;
+	padding: 10px;
+	display: block; 
+}
 .modal-footer {
       background-color: #f9f9f9;
   }
@@ -29,24 +73,8 @@
  	background-color: #222222;
  }
 
- .btn-usertype{
- 	
-
- }
+ 
 	
 
 
 
-/*footer p{
-	position: relative;
-	bottom: 0px;
-<<<<<<< HEAD
-	text-align: left;
-	background-color: rgb(44, 58, 91);
-=======
-	text-align: center;
-	background-color: black;
-	color: white;
->>>>>>> 2c5a7eaa7859300ef163cc512057f7dc1e80eba5
-	height: 20px;
-	}*/

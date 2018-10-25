@@ -13,23 +13,20 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar headings" id="heading" >
     <div class="container">
       <div class="navbar-header">
         <img src="resource/hlogo2.png" alt="header logo" class="logo">
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">FIND HELPER</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">HOW IT WORKS</a></li>  
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">CONTACT US</a></li>
+        <li><a href="#" id="header">HOME</a></li>
+        <li><a href="#" id="header">FIND HELPER</a></li> 
+        <li><a href="#" id="header">ABOUT US</a></li>
         <li><button type="button" class="btn-default" id="btnSignIn">SIGN IN</button></li>
-        <li><a href="#">SIGN UP</a></li>
+        <li><button type="button" class="btn-default" id="btnSignUp">SIGN UP</button></li>
       </ul>
 
-    <!-- Modal -->
+    <!-- Modal option-->
   <div class="modal fade" id="modal1" role="dialog">
     <div class="modal-dialog">
     
@@ -40,9 +37,9 @@
           <h2 class="modal-title"><i class="fas fa-user-friends"></i><b> SIGN IN</b></h2>
         </div>
         <div class="modal-body">
-          <button type="button" class="btn btn-default btn-usertype " id="btnemployee">EMPLOYER</button>
+          <button type="button" class="btn btn-default btn-usertype " id="btnemployee1">EMPLOYER</button>
           <hr />
-          <button type="button" class="btn btn-default btn-usertype" id="btnjobseeker">JOBSEEKER</button>
+          <button type="button" class="btn btn-default btn-usertype" id="btnjobseeker1">JOBSEEKER</button>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -51,6 +48,203 @@
       
     </div>
   </div>
+ 
+  <!--Employee sign in modal-->
+  <div class="modal fade" id="modal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img src="resource/employerlogin.png">
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><i class="fas fa-user"></i> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" >Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-info btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+      
+          <p>Not a member? <a href="#">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+
+   <!--jobseeker sign in modal-->
+  <div class="modal fade" id="modal3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img src="resource/jobseekersignin.png" id="imgjobseekersignin">
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><i class="fas fa-user"></i> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" >Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-info btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+      
+          <p>Not a member? <a href="#">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+
+    <!-- Modal option-->
+  <div class="modal fade" id="modal4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><i class="fas fa-user-friends"></i><b> SIGN UP</b></h2>
+        </div>
+        <div class="modal-body">
+          <button type="button" class="btn btn-default btn-usertype " id="btnemployee2">EMPLOYER</button>
+          <hr />
+          <button type="button" class="btn btn-default btn-usertype" id="btnjobseeker2">JOBSEEKER</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!--employer sign up modal-->
+  <div class="modal fade" id="modal5" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img src="resource/employersignup.png" id="imgemployersignup">
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="Name"><i class="far fa-id-badge"></i> NAME :</label>
+              <input type="text" class="form-control" id="uname" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="Phone"><i class="fas fa-phone-square"></i> MOBILE NO. :</label>
+              <input type="tel" class="form-control" id="pno" placeholder="Enter your mobile no.">
+            </div>
+            <div class="form-group">
+            <label for="Phone"><i class="fas fa-map-marked-alt"></i> ADDRESS :</label>
+            <textarea rows="4" cols="50" class="form-control" id="address" placeholder="Enter your address" ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="usrname"><i class="fas fa-user"></i> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="password" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+           
+              <button type="submit" class="btn btn-info btn-block"><span class="glyphicon glyphicon-off"></span> SIGN UP</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+      
+          <p>Already a member? <a href="#">Sign In</a></p>
+        
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+
+  <!--jobseeker sign up modal-->
+  <div class="modal fade" id="modal6" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img src="resource/maidsignin.png" id="jobseekersignup">
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="Name"><i class="far fa-id-badge"></i> NAME :</label>
+              <input type="text" class="form-control" id="uname" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="Phone"><i class="fas fa-phone-square"></i> MOBILE NO. :</label>
+              <input type="tel" class="form-control" id="pno" placeholder="Enter your mobile no.">
+            </div>
+            <div class="form-group">
+            <label for="Phone"><i class="fas fa-map-marked-alt"></i> ADDRESS :</label>
+            <textarea rows="4" cols="50" class="form-control" id="address" placeholder="Enter your address" ></textarea>
+            </div>
+            <div>
+             <label for="sel2"><i class="fas fa-book-open"></i> TYPE OF JOB :</label>
+              <select multiple class="form-control" id="sel2">
+              <option>MAID</option>
+              <option>COOK</option>
+              <option>BABYSITTER</option>
+              <option>PATIENT CARE</option>
+              </select>
+              </div>
+            <div class="form-group">
+              <label for="usrname"><i class="fas fa-user"></i> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="password" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+           
+              <button type="submit" class="btn btn-info btn-block"><span class="glyphicon glyphicon-off"></span> SIGN UP</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+      
+          <p>Already a member? <a href="#">Sign In</a></p>
+        
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+
 
     </div>
   </nav>

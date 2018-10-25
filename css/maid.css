@@ -7,17 +7,18 @@
 
 .modal-header{
     text-align: center;
-    background-color: rgb(91, 192, 222); 
     padding:35px 50px;
-	font-family: sans-serif; 
+	font-family: sans-serif;
+	 background-color: #45cda4;
       }
 .modal-body{
 	text-align: center;
 	padding:40px 50px;
+
 }
 
 .modal-footer{
-      background-color: #f9f9f9;
+      background-color: #45cda4;
   }
 
 
@@ -25,10 +26,67 @@
  	border:none;
  	margin: 15px;
  	font-size: 14px;
- 	color: #9d9d9d;
- 	background-color: #222222;
+ 	color: #337ab7;
+ 	background-color: #0d0d0d;
  }
- .btn-usertype{
- 	
+ #btnSignIn:hover{
+ 	color: #45cda4
 
  }
+
+#btnSignUp{
+ 	border:none;
+ 	text-align: left;
+ 	margin: 15px;
+ 	font-size: 14px;
+ 	color: #337ab7;
+ 	background-color: #0d0d0d;
+ }
+ #btnSignUp:hover{
+ 	color: #45cda4
+
+ }
+
+ #imgjobseekersignin{
+ 	width: 90px;
+ 	height: 100px;
+ }
+
+#imgemployersignup{
+	width: 90px;
+ 	height: 100px;
+}
+
+#jobseekersignup{
+	width: 110px;
+ 	height: 100px;
+}
+ 
+
+ #btnemployee{
+ 	width:50%;
+ }
+
+ #btnjobseeker{
+ 	width:50%;	
+ }
+ #btnemployee:hover{
+ 	background-color: #33ffbb
+
+ }
+
+ #btnjobseeker:hover{
+ 	background-color: #33ffbb;
+
+ }
+
+ #heading{
+ 	background-color: #0d0d0d;
+	overflow: auto;
+	color: #361f8c;
+ }
+
+ nav  div ul li a:hover{
+	
+	color: #45cda4;
+}
