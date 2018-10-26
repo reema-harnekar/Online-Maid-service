@@ -9,7 +9,8 @@
     text-align: center;
     padding:35px 50px;
 	font-family: sans-serif;
-	 background-color: #45cda4;
+	 background-color: #0d0d0d;
+	 color: #361f8c
       }
 .modal-body{
 	text-align: center;
@@ -18,7 +19,7 @@
 }
 
 .modal-footer{
-      background-color: #45cda4;
+      background-color: #ffffff;
   }
 
 
@@ -63,21 +64,36 @@
 }
  
 
- #btnemployee{
+ #btnemployee1{
  	width:50%;
  }
 
- #btnjobseeker{
+ #btnjobseeker1{
  	width:50%;	
  }
- #btnemployee:hover{
- 	background-color: #33ffbb
 
+ #btnemployee2{
+ 	width:50%;
  }
 
- #btnjobseeker:hover{
- 	background-color: #33ffbb;
+ #btnjobseeker2{
+ 	width:50%;	
+ }
 
+ #btnemployee1:hover{
+ 	background-color: #33ffbb
+ }
+
+ #btnjobseeker1:hover{
+ 	background-color: #33ffbb;
+ }
+
+ #btnemployee2:hover{
+ 	background-color: #33ffbb
+ }
+
+ #btnjobseeker2:hover{
+ 	background-color: #33ffbb;
  }
 
  #heading{
