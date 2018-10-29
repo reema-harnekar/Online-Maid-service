@@ -19,11 +19,11 @@
         <img src="resource/hlogo2.png" alt="header logo" class="logo">
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="headerfooter.html" id="header">HOME</a></li>
-        <li><a href="findhelper.phpa" id="header">FIND HELPER</a></li> 
+        <li><a href="home.php" id="header">HOME</a></li>
+        <li><a href="findhelper.php" id="header">FIND HELPER</a></li> 
         <li><a href="#" id="header">ABOUT US</a></li>
-        <li><button type="button" class="btn-default" id="btnSignIn">SIGN IN</button></li>
-       
+        <!--<li><button type="button" class="btn-default" id="btnSignIn">SIGN IN</button></li>
+        <li><button type="button" class="btn-default" id="btnSignUp">SIGN UP</button></li>-->
       </ul>
 
     <!--SIGN IN Modal option-->
@@ -242,8 +242,7 @@
     </div>
   </div> 
 
-
-  <div class="counter">
+<div class="counter">
     <div class="row">
     <div class="column">
       <div class="card">
